@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SaVaBo App – Datenschutzerklärung</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  h1 { font-size: 1.8rem; margin-bottom: .2rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  td, th { border: 1px solid #8884; padding: .4rem .5rem; text-align: left; vertical-align: top; }
+  .stand { color: #888; }
+</style>
+</head>
+<body>
+<h1>Datenschutzerklärung der App „SaVaBo“</h1>
+<p class="stand">Android-App <code>com.savabo.app</code> · Stand: 25. November 2026</p>
+
+<p>SaVaBo ist eine private App, die nicht öffentlich angeboten wird. Sie wird nur an eingeladene Personen
+über den internen Testkanal von Google Play verteilt. Es gibt keine Werbung, keine Analyse- oder Tracking-Dienste
+und keinen Verkauf von Daten.</p>
+
+<h2>1. Verantwortlicher</h2>
+<p>Maurice Roth<br>Neue Fahrt 20, 34277 Fuldabrück<br>E-Mail: <a href="mailto:maurice_roth94@web.de">maurice_roth94@web.de</a></p>
+
+<h2>2. Welche Daten die App verarbeitet und wozu</h2>
+<table>
+<tr><th>Daten</th><th>Zweck</th></tr>
+<tr><td>E-Mail-Adresse und Passwort (verschlüsselt gespeichert)</td><td>Anmeldung im eigenen Konto</td></tr>
+<tr><td>Eingetragene Inhalte: Mahlzeiten, Rezepte, Zutaten, Vorrat, Einkaufslisten, Aufgaben, Putzplan, Trainings, Bücher, Kurse und Abrechnungen</td><td>Kernfunktionen der App; Abgleich zwischen den eigenen Geräten</td></tr>
+<tr><td>Gesundheits- und Körperdaten: Gewicht, Körpermaße, Nährwerte, Trainingsdaten; aus Health Connect (nur nach Freigabe) Schritte, Kalorien, Schlaf, Ruhepuls und Herzfrequenzvariabilität</td><td>Anzeige von Verlauf und Tageswerten</td></tr>
+<tr><td>Fotos: Fortschrittsfotos und Fotos von Mahlzeiten</td><td>Fortschrittsvergleich; Schätzung von Nährwerten aus einem Essensfoto (nur auf Wunsch, siehe Abschnitt 3)</td></tr>
+<tr><td>Kamera</td><td>Barcode-Scan von Lebensmitteln, Fotos (nur bei Benutzung)</td></tr>
+<tr><td>Standort</td><td>(a) einmalig und gerundet als Standort der eigenen Wohnung für die Lüftungsempfehlung; (b) ortsbezogene Erinnerungen an Aufgaben, die der Nutzer selbst anlegt – dafür auch im Hintergrund. Der Standort wird nicht laufend gespeichert und nicht an andere Nutzer weitergegeben.</td></tr>
+<tr><td>Kalender (nur lesen)</td><td>Anzeige von Terminen neben den Aufgaben</td></tr>
+<tr><td>Bluetooth</td><td>Verbindung mit Küchenwaage und Maßband</td></tr>
+<tr><td>Gerätekennung für Mitteilungen</td><td>Zustellen von Benachrichtigungen</td></tr>
+</table>
+
+<h2>3. Empfänger und Dienste</h2>
+<ul>
+<li><strong>Supabase</strong> (Datenbank und Anmeldung): speichert die Konto- und Inhaltsdaten. Jede Person sieht nur ihre eigenen Daten und die eines Haushalts, dem sie ausdrücklich beigetreten ist.</li>
+<li><strong>Google Firebase Cloud Messaging</strong>: Zustellung von Benachrichtigungen.</li>
+<li><strong>Google Health Connect</strong>: nur lesend bzw. für Trainings schreibend, nur nach Freigabe in den Android-Einstellungen.</li>
+<li><strong>OpenAI</strong>: Wer die Nährwert-Schätzung aus einem Essensfoto benutzt, dessen Foto wird zur Auswertung an OpenAI übermittelt.</li>
+<li><strong>Open Food Facts</strong>: Abfrage von Produktdaten zu einem gescannten Barcode.</li>
+<li><strong>Google Books</strong>: Buchsuche (es wird nur der Suchbegriff übermittelt).</li>
+<li><strong>Optionale Verbindungen</strong>, nur wenn der Nutzer sie selbst einrichtet: Oura, Withings, Spotify, tado, SwitchBot, Steam. Die Zugangsschlüssel dieser Dienste liegen auf dem Server, nicht auf dem Gerät.</li>
+</ul>
+<p>Daten werden nicht verkauft und nicht zu Werbezwecken weitergegeben.</p>
+
+<h2>4. Speicherdauer und Löschung</h2>
+<p>Die Daten bleiben gespeichert, solange das Konto besteht. Einzelne Einträge lassen sich in der App löschen.
+Für die Löschung des ganzen Kontos samt aller Daten genügt eine formlose E-Mail an die oben genannte Adresse.</p>
+
+<h2>5. Sicherheit</h2>
+<p>Die Übertragung erfolgt verschlüsselt (HTTPS). Der Zugriff auf Daten ist in der Datenbank je Konto beschränkt.</p>
+
+<h2>6. Deine Rechte</h2>
+<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und
+Widerspruch sowie das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Eine E-Mail an die oben genannte Adresse genügt.</p>
+
+<h2>7. Kinder</h2>
+<p>Die App richtet sich nicht an Kinder.</p>
+</body>
+</html>

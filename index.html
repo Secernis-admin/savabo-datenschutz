@@ -33,7 +33,7 @@ und keinen Verkauf von Daten.</p>
 <tr><td>Gesundheits- und Körperdaten: Gewicht, Körpermaße, Nährwerte, Trainingsdaten; aus Health Connect (nur nach Freigabe) Schritte, Kalorien, Schlaf, Ruhepuls und Herzfrequenzvariabilität</td><td>Anzeige von Verlauf und Tageswerten</td></tr>
 <tr><td>Fotos: Fortschrittsfotos und Fotos von Mahlzeiten</td><td>Fortschrittsvergleich; Schätzung von Nährwerten aus einem Essensfoto (nur auf Wunsch, siehe Abschnitt 3)</td></tr>
 <tr><td>Kamera</td><td>Barcode-Scan von Lebensmitteln, Fotos (nur bei Benutzung)</td></tr>
-<tr><td>Standort</td><td>(a) einmalig und gerundet als Standort der eigenen Wohnung für die Lüftungsempfehlung; (b) ortsbezogene Erinnerungen an Aufgaben, die der Nutzer selbst anlegt – dafür auch im Hintergrund. Der Standort wird nicht laufend gespeichert und nicht an andere Nutzer weitergegeben.</td></tr>
+<tr><td>Standort</td><td>(a) einmalig und auf etwa 100&nbsp;m gerundet als Standort der eigenen Wohnung für die Lüftungsempfehlung; (b) ortsbezogene Erinnerungen an Aufgaben, die der Nutzer selbst anlegt – dafür auch im Hintergrund. Der Standort wird nicht laufend gespeichert und nicht an andere Nutzer weitergegeben.</td></tr>
 <tr><td>Kalender (nur lesen)</td><td>Anzeige von Terminen neben den Aufgaben</td></tr>
 <tr><td>Bluetooth</td><td>Verbindung mit Küchenwaage und Maßband</td></tr>
 <tr><td>Gerätekennung für Mitteilungen</td><td>Zustellen von Benachrichtigungen</td></tr>
@@ -45,6 +45,7 @@ und keinen Verkauf von Daten.</p>
 <li><strong>Google Firebase Cloud Messaging</strong>: Zustellung von Benachrichtigungen.</li>
 <li><strong>Google Health Connect</strong>: nur lesend bzw. für Trainings schreibend, nur nach Freigabe in den Android-Einstellungen.</li>
 <li><strong>OpenAI</strong>: Wer die Nährwert-Schätzung aus einem Essensfoto benutzt, dessen Foto wird zur Auswertung an OpenAI übermittelt.</li>
+<li><strong>Open-Meteo</strong>: Wetterdaten für die Lüftungsempfehlung. Dafür wird der gespeicherte, auf etwa 100&nbsp;m gerundete Standort der Wohnung übermittelt.</li>
 <li><strong>Open Food Facts</strong>: Abfrage von Produktdaten zu einem gescannten Barcode.</li>
 <li><strong>Google Books</strong>: Buchsuche (es wird nur der Suchbegriff übermittelt).</li>
 <li><strong>Optionale Verbindungen</strong>, nur wenn der Nutzer sie selbst einrichtet: Oura, Withings, Spotify, tado, SwitchBot, Steam. Die Zugangsschlüssel dieser Dienste liegen auf dem Server, nicht auf dem Gerät.</li>
